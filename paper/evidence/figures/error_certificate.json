@@ -1,0 +1,7 @@
+{
+  "sources": [
+    "error_budget.csv"
+  ],
+  "caption": "Zero violations plotted at 1e-16. Units are price for butterfly/calendar, price per strike squared for density. All bounds are conditional on measured exact-model price error.",
+  "profile": "paper"
+}

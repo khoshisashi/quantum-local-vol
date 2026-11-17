@@ -1,0 +1,8 @@
+[
+  {
+    "key": "in_bp5_d303_n6_AH_s0",
+    "method": "AH",
+    "dataset": "in_bp5_d303",
+    "reason": "AH input has no finite Black IV; quotes retained, baseline marked failed"
+  }
+]

@@ -1,0 +1,68 @@
+{
+  "profile": "paper",
+  "notebook_sha256": "8701692e03bf586400c0611430a05deca881ff529ea91f9cdf81048e663fd033",
+  "code_cells": 10,
+  "executed": [
+    {
+      "cell": 1,
+      "tag": "parameters",
+      "passed": true,
+      "seconds": 0.4300686000000269
+    },
+    {
+      "cell": 3,
+      "tag": "materialise",
+      "passed": true,
+      "seconds": 0.16954879000002165
+    },
+    {
+      "cell": 5,
+      "tag": "circuit_check",
+      "passed": true,
+      "seconds": 1.2630532560000347
+    },
+    {
+      "cell": 7,
+      "tag": "new_calibration",
+      "passed": true,
+      "seconds": 1491.771322554
+    },
+    {
+      "cell": 9,
+      "tag": "resources",
+      "passed": true,
+      "seconds": 258.41718604300013
+    },
+    {
+      "cell": 11,
+      "tag": "surface_examples",
+      "passed": true,
+      "seconds": 47.73816345000023
+    },
+    {
+      "cell": 13,
+      "tag": "measured_precision",
+      "passed": true,
+      "seconds": 0.007116949000192108
+    },
+    {
+      "cell": 15,
+      "tag": "financial_audit",
+      "passed": true,
+      "seconds": 6.532974601000205
+    },
+    {
+      "cell": 17,
+      "tag": "export",
+      "passed": true,
+      "seconds": 1.6662237509999613
+    },
+    {
+      "cell": 18,
+      "tag": "download",
+      "passed": true,
+      "seconds": 0.00019086500014964258
+    }
+  ],
+  "all_passed": true
+}

@@ -1,0 +1,69 @@
+{
+  "config": {
+    "ns": [
+      5,
+      6,
+      7
+    ],
+    "ref_n": 11,
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "noise_seeds": [
+      101,
+      202,
+      303
+    ],
+    "kernels": [
+      256,
+      512,
+      1024,
+      2048,
+      4096
+    ],
+    "lchs_terms": 2048,
+    "maxiter": 220,
+    "fd_steps": 1024,
+    "pinn_steps": 6000,
+    "pinn_width": 32,
+    "collocation": 768,
+    "ablation": true,
+    "circuit_n": 2,
+    "circuit_m": 1,
+    "circuit_terms": 4,
+    "qhd_steps": 1500,
+    "profile": "paper",
+    "version": "2026-09-05-r2",
+    "market_csv": "",
+    "out": "/content/cifer_outputs/paper_9684a7f0bec7",
+    "fingerprint": "9684a7f0bec7",
+    "backend": "[CpuDevice(id=0)]"
+  },
+  "packages": {
+    "numpy": "2.1.3",
+    "scipy": "1.16.3",
+    "pandas": "2.2.3",
+    "matplotlib": "3.10.0",
+    "jax": "0.11.1",
+    "qiskit": "2.5.2",
+    "QuantLib": "1.43"
+  },
+  "python": "3.13.15 (main, Aug  6 2026, 11:06:23) [GCC 11.4.0]",
+  "platform": "Linux-6.6.122+-x86_64-with-glibc2.35",
+  "study_status": "completed",
+  "market_status": "not_run",
+  "time_units": "ACT/365F years",
+  "price_units": "C/(discount*forward)",
+  "source_sha256": {
+    "core.py": "86775361d670ff0ac181b79e1d0b8050cf5abf5396651f31decc66238d20260f",
+    "benchmarks.py": "2375beb608e0ae2fc0946fc6022cc09bb40b287f5990d9a306717fd0330bddac",
+    "quantum_checks.py": "e75618a3f1206292d13e6cb2ef4a12fbcf80835312238d481ea60c1f00017f6e",
+    "extended_checks.py": "db48155c361dffed301dce7469bfaaa2fa5062f12da67bdb62ca959fe4995385",
+    "reporting.py": "327fbd525e0a82d9af04e13222afd0b92739b6a1f5d413d9e3fd8c2e14407760"
+  },
+  "manuscript_sha256": "9fa950dc61018aa291560774e7f028724e9cb7823348f2a0ce8308c6499c41d1"
+}

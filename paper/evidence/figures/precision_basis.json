@@ -1,0 +1,8 @@
+{
+  "sources": [
+    "quantisation.csv",
+    "fourier_basis.csv"
+  ],
+  "caption": "Quantisation does not re-optimise the discrete objective. Fourier approximation is diagnosed separately from exact pointwise calibration.",
+  "profile": "paper"
+}

@@ -1,0 +1,10 @@
+\begin{table}[t]\centering\caption{Out-of-family, 5 bp noise, $N=64$. Means over datasets after averaging initialisations. Price errors are normalised bp; time is classical optimisation seconds.}
+\label{tab:bench}\scriptsize\begin{tabular}{lrrrr}\toprule Method & Fit & Test & Seconds & Runs\\\midrule
+Exact expm & 6 & 6.58 & 0.0712 & 15\\
+FD + adjoint & 6.02 & 6.6 & 0.366 & 15\\
+LCHS beta & 6.03 & 6.6 & 70.5 & 15\\
+LCHS simple & 10.3 & 9.33 & 70.9 & 15\\
+Andreasen-Huge & 1.03e-10 & 3.48 & 0.00136 & 3\\
+PINN fixed & 2.24 & 2.12 & 16.3 & 15\\
+PINN adaptive & 2.09 & 2.06 & 16.9 & 15\\
+\bottomrule\end{tabular}\end{table}

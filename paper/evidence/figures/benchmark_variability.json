@@ -1,0 +1,7 @@
+{
+  "sources": [
+    "results.csv"
+  ],
+  "caption": "Each dot is an executed run; initialisation seeds are not independent market observations.",
+  "profile": "paper"
+}

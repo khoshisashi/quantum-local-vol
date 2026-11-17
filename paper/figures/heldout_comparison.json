@@ -1,0 +1,7 @@
+{
+  "source": [
+    "results.csv",
+    "audit/dataset_means_verified.csv"
+  ],
+  "caption": "Mean and sample SD over three data seeds after averaging five initialisations (AH deterministic)."
+}

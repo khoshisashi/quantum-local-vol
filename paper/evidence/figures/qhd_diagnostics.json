@@ -1,0 +1,9 @@
+{
+  "sources": [
+    "qhd_trajectory.csv",
+    "qhd_distribution.csv",
+    "qhd_refinement.csv"
+  ],
+  "caption": "Classically tabulated denser landscape; only the separate coarse design circuit is coherently verified. Near optimal = within 1% of the finite objective range.",
+  "profile": "paper"
+}

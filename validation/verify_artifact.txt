@@ -1,0 +1,3 @@
+Stored results agree with the paper: Table I (28 values), Table II (10 values), Table III (24 values),
+Fig. 4 butterfly prices, 567 completed and 1 failed benchmark runs, 6 measured runs, 12 circuits.
+No calibration or hardware run was performed by this check.

@@ -1,0 +1,7 @@
+{
+  "sources": [
+    "selected_examples.json"
+  ],
+  "caption": "Fixed/adaptive network losses; adaptation is not an exact reproduction of the cited study.",
+  "profile": "paper"
+}

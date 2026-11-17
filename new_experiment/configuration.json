@@ -1,0 +1,58 @@
+{
+  "version": "2026-09-09-r1",
+  "profile": "paper",
+  "terms": 8,
+  "cutoff": 12.0,
+  "shots": [
+    262144,
+    4194304
+  ],
+  "seeds": [
+    101,
+    202,
+    303
+  ],
+  "rounds": 2,
+  "target": "same-grid synthetic exact PDE",
+  "truth": [
+    [
+      0.75,
+      0.25
+    ],
+    [
+      0.25,
+      0.75
+    ]
+  ],
+  "quotes": [
+    [
+      0.21871227564742046,
+      0.1513590848371409,
+      0.0840058940268612,
+      0.006855139787256696
+    ],
+    [
+      0.2026262191391153,
+      0.13813870886002702,
+      0.07365119858093881,
+      0.019489302067962153
+    ]
+  ],
+  "grid": [
+    0.3011942119122021,
+    0.4867522559599717,
+    0.7866278610665534,
+    1.2712491503214047,
+    2.0544332106438876,
+    3.3201169227365472
+  ],
+  "times": [
+    0.5,
+    1.0
+  ],
+  "noise_bp": 0,
+  "hardware_execution": false,
+  "implementation": "coherent LCHS within each maturity; measured residual; classical bounded pattern search",
+  "synthesis": "dense small-system Hamiltonian unitaries; all-to-all u/cx",
+  "optimiser_access": "measurement counts only; no statevector, exact objective or gradient"
+}

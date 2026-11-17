@@ -1,0 +1,129 @@
+{
+  "rerun": "build/paper",
+  "files_expected": 37,
+  "files_missing_or_different": 0,
+  "relative_tolerance": 1e-09,
+  "files": {
+    "new_experiment/calibration_results.csv": {
+      "result": "same"
+    },
+    "new_experiment/checkpoint.json": {
+      "result": "same",
+      "notes": [
+        "/last/verification_cx_executions: written by the rerun only",
+        "/last/verification_shots: written by the rerun only"
+      ]
+    },
+    "new_experiment/circuit_validation.csv": {
+      "result": "same"
+    },
+    "new_experiment/configuration.json": {
+      "result": "same"
+    },
+    "new_experiment/final_circuit_resources.json": {
+      "result": "same"
+    },
+    "new_experiment/measurement_log.json": {
+      "result": "same",
+      "notes": [
+        ": the same 438 records in another order, matched on the fields of every stored record (only in some stored records: repeated_for_log_completion)"
+      ]
+    },
+    "new_experiment/optimisation_history.csv": {
+      "result": "same"
+    },
+    "new_experiment/quadrature_diagnostic.csv": {
+      "result": "same"
+    },
+    "new_experiment/resource_sweep.csv": {
+      "result": "same",
+      "notes": [
+        "the same columns in another order"
+      ]
+    },
+    "new_experiment/status.json": {
+      "result": "same"
+    },
+    "surface_examples/calibration_records.json": {
+      "result": "same"
+    },
+    "surface_examples/configuration.json": {
+      "result": "same"
+    },
+    "surface_examples/skew_quotes.json": {
+      "result": "same"
+    },
+    "surface_examples/smile_quotes.json": {
+      "result": "same"
+    },
+    "surface_examples/surface_accuracy.csv": {
+      "result": "same"
+    },
+    "surface_examples/surface_plot_data.csv": {
+      "result": "same"
+    },
+    "surface_examples/surface_predictions.csv": {
+      "result": "same"
+    },
+    "surface_examples/validation.json": {
+      "result": "same"
+    },
+    "consistency_example/consistency_predictions.csv": {
+      "result": "same"
+    },
+    "consistency_example/consistency_validation.json": {
+      "result": "same"
+    },
+    "paper/tables/all_cases.tex": {
+      "result": "same"
+    },
+    "paper/tables/arbitrage_audit.tex": {
+      "result": "same"
+    },
+    "paper/tables/benchmark.tex": {
+      "result": "same"
+    },
+    "paper/tables/consistency_macros.tex": {
+      "result": "same"
+    },
+    "paper/tables/measured_rows.tex": {
+      "result": "same"
+    },
+    "paper/tables/new_run_macros.tex": {
+      "result": "same"
+    },
+    "paper/tables/paired_in_family.tex": {
+      "result": "same"
+    },
+    "paper/tables/resource_rows.tex": {
+      "result": "same"
+    },
+    "paper/tables/surface_macros.tex": {
+      "result": "same"
+    },
+    "paper/audit/arbitrage_by_method_grid.csv": {
+      "result": "same"
+    },
+    "paper/audit/audit_summary.json": {
+      "result": "same"
+    },
+    "paper/audit/dataset_means_verified.csv": {
+      "result": "same"
+    },
+    "paper/audit/in_noisy_complete_case.csv": {
+      "result": "same"
+    },
+    "paper/audit/independent_checks.csv": {
+      "result": "same"
+    },
+    "paper/audit/iv_coverage.csv": {
+      "result": "same"
+    },
+    "paper/audit/kernel_budget_source.csv": {
+      "result": "same"
+    },
+    "paper/audit/summary_verified.csv": {
+      "result": "same"
+    }
+  }
+}

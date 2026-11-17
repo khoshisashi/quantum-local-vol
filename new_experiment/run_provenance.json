@@ -1,0 +1,87 @@
+{
+  "calibration": "Full paper configuration executed with r1 numerical algorithm; raw run retained under validation/paper_run.",
+  "delivered_source": "r2 extends metadata and final-verification logging; circuit and search algorithms retained.",
+  "audit": "Every calibration candidate and decision replayed from actual counts using delivered search; final financial metrics independently recalculated; final measurements repeated with original seeds.",
+  "source_sha256": {
+    "surface_model.py": "a53f4a71590c98b1a7d5c21dabecdf9460b432a02dfdb60b2572303defa63df3",
+    "legacy_figures.py": "84a91015df365b056c743e853bf58df54f3e027d82107b40eefd027ab79e1268",
+    "experiment_figures.py": "14fd407a8fd8a308f16cfca0a86447ef634aea9426cfd4ab820b7eb313410719",
+    "audit_results.py": "90431c30590be76494e290cf8dc080c726cbdf18492f3125b7e5e3f7d85e61b5",
+    "quantum_experiments.py": "879be057b04fbef2316f5154ad47907400406133b68d5f5a3b0f74585ffaca3a"
+  },
+  "audits": [
+    {
+      "shots": 262144,
+      "seed": 101,
+      "candidate_sequence_replayed": true,
+      "decisions_match": true,
+      "financial_metrics_match": true,
+      "shot_gate_totals_match": true,
+      "independent_final_counts_repeated": true,
+      "independent_final_estimate_and_interval_match": true
+    },
+    {
+      "shots": 262144,
+      "seed": 202,
+      "candidate_sequence_replayed": true,
+      "decisions_match": true,
+      "financial_metrics_match": true,
+      "shot_gate_totals_match": true,
+      "independent_final_counts_repeated": true,
+      "independent_final_estimate_and_interval_match": true
+    },
+    {
+      "shots": 262144,
+      "seed": 303,
+      "candidate_sequence_replayed": true,
+      "decisions_match": true,
+      "financial_metrics_match": true,
+      "shot_gate_totals_match": true,
+      "independent_final_counts_repeated": true,
+      "independent_final_estimate_and_interval_match": true
+    },
+    {
+      "shots": 4194304,
+      "seed": 101,
+      "candidate_sequence_replayed": true,
+      "decisions_match": true,
+      "financial_metrics_match": true,
+      "shot_gate_totals_match": true,
+      "independent_final_counts_repeated": true,
+      "independent_final_estimate_and_interval_match": true
+    },
+    {
+      "shots": 4194304,
+      "seed": 202,
+      "candidate_sequence_replayed": true,
+      "decisions_match": true,
+      "financial_metrics_match": true,
+      "shot_gate_totals_match": true,
+      "independent_final_counts_repeated": true,
+      "independent_final_estimate_and_interval_match": true
+    },
+    {
+      "shots": 4194304,
+      "seed": 303,
+      "candidate_sequence_replayed": true,
+      "decisions_match": true,
+      "financial_metrics_match": true,
+      "shot_gate_totals_match": true,
+      "independent_final_counts_repeated": true,
+      "independent_final_estimate_and_interval_match": true
+    }
+  ],
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "pandas": "2.2.3",
+    "qiskit": "2.5.2",
+    "qiskit-aer": "0.17.2"
+  },
+  "field_notes": {
+    "compile_seconds": "Time to compile that circuit when first constructed; reused for cache hits, not additive across calls.",
+    "cpu_seconds": "Per-run wall time including uncached compilation and Aer; circuit cache shared across sampler runs.",
+    "total_shots": "Calibration only; final verification is a separate field."
+  }
+}

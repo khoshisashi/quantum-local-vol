@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "quantum-local-vol"
+type: software
+version: "1.0.0"
+authors:
+  - family-names: Hoshisashi
+    given-names: Kentaro
+    affiliation: "Department of Computer Science, University College London"
+repository-code: "https://github.com/khoshisashi/quantum-local-vol"
+license: MIT
+keywords:
+  - local volatility
+  - calibration
+  - quantum computing
+  - LCHS
+preferred-citation:
+  type: conference-paper
+  title: "Quantum Calibration of Local-Volatility Surfaces from Sparse Option Quotes"
+  authors:
+    - family-names: Hoshisashi
+      given-names: Kentaro
+      affiliation: "Department of Computer Science, University College London"
+  collection-title: "2027 IEEE Symposium Series on Computational Intelligence (SSCI)"
+  conference:
+    name: "IEEE Symposium Series on Computational Intelligence (SSCI 2027)"
+    city: "Gold Coast"
+    country: "AU"
+    date-start: "2027-02-14"
+    date-end: "2027-02-17"
+  year: 2027
+  status: in-press

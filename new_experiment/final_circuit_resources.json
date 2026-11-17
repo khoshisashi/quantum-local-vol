@@ -1,0 +1,49 @@
+[
+  {
+    "expiry": 0,
+    "quotes": 4,
+    "scale": 2.379567164347535,
+    "scale_to_mse": 1.415584972410242,
+    "ancillas": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "qubits": 7,
+    "terms": 8,
+    "cutoff": 12.0,
+    "alpha": 1.5872815579272388,
+    "price_amplification": 1.6126371044093393,
+    "cx": 18432,
+    "u": 23457,
+    "depth": 33605,
+    "compile_seconds": 0.48415854099948774
+  },
+  {
+    "expiry": 1,
+    "quotes": 4,
+    "scale": 3.3100117019790956,
+    "scale_to_mse": 2.739044366809637,
+    "ancillas": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "qubits": 10,
+    "terms": 8,
+    "cutoff": 12.0,
+    "alpha": 1.5872815579272388,
+    "price_amplification": 2.600598430517739,
+    "cx": 36666,
+    "u": 46655,
+    "depth": 66858,
+    "compile_seconds": 1.1164439160002075
+  }
+]

@@ -1,0 +1,73 @@
+\section{New measured multi-expiry experiment}
+The main paper adds a measured hybrid calibration to the larger archived
+financial benchmark. These are separate experiments. The new circuit has
+$N=4$ interior nodes, two basis functions with centres $(-0.55,0.55)$ and
+width $0.85$, and maturities $(0.5,1)$ years. Four irregular quotes per maturity
+are used. The exact same-grid target has coefficients $(0.75,0.25)$ and
+$(0.25,0.75)$. It isolates circuit, quadrature and sampling errors. The larger
+archived benchmark instead uses $M=4$ and fine-grid target generation.
+
+\subsection{Product of successful propagation blocks}
+Let $U_s$ have successful block $\widetilde P_s/(e^{\lchsshift\Delta_s}\alpha)$.
+Allocate a fresh LCU register to every interval and use the same system register.
+Since subsequent operators do not act on a previous interval's LCU register,
+projection of all of them onto zero gives
+\begin{equation}
+ \left(\prod_{r=1}^s\langle0|_{a_r}\right)U_s\cdots U_1
+ \left(\prod_{r=1}^s|0\rangle_{a_r}\right)
+ =\frac{\widetilde P_s\cdots\widetilde P_1}{e^{\lchsshift T_s}\alpha^s}.
+\end{equation}
+Failed branches cannot re-enter a previously successful subspace, since that
+register is never reused. There is no intermediate measurement or replacement
+with a classically computed state.
+
+\subsection{Observation and residual measurement}
+Pad the quote map to an $N\times N$ matrix $W_s$ and its target to an
+$N$-vector $y_s$. This prototype requires $q_s\leq N$.
+For $B=W_s/\gamma_s$, $\gamma_s=\max(1,\norm{W_s}_2)$, the circuit uses
+\begin{equation}
+ U_B=\begin{pmatrix}B&\sqrt{I-BB^\dagger}\\
+ \sqrt{I-B^\dagger B}&-B^\dagger\end{pmatrix}.
+\end{equation}
+The implementation checks unitarity numerically. With
+$a_s=\norm{v_0}_2e^{\lchsshift T_s}\alpha^s\gamma_s$ and
+$d_s=\norm{y_s}_2$, prepare the residual branch with amplitudes
+$\sqrt{a_s/(a_s+d_s)}$ and $\sqrt{d_s/(a_s+d_s)}$.
+Controlled preparation of the propagated state and $y_s/d_s$, a relative
+minus sign and inverse branch preparation produce successful residual
+$(W_s\widetilde v_s-y_s)/(a_s+d_s)$.
+The all-zero ancillary frequency therefore estimates the squared residual,
+with its known scale retained. The supplied financial target has $d_s>0$.
+A general zero-target instance would need its trivial separate branch.
+
+\subsection{Search, replication and interval reporting}
+Both matrix and measured objectives use the same bounded pattern search.
+Starting at four coefficients equal to $0.5$, two sweeps test the incumbent
+and positive/negative steps of $0.25$ along four coordinate directions and
+two within-interval tilt directions. Coordinates are clipped to $[0,1]$ and
+duplicate candidates are removed. Ties retain the earlier candidate, with
+the incumbent tested first. The finite search does not claim global optimisation.
+
+The paper configuration uses $J=8$, cutoff $12$, and respectively $2^{18}$
+and $2^{22}$ repetitions per maturity per candidate, each with seeds
+$101,202,303$. Only backend finite-shot counts enter coefficient decisions.
+Independent matrix and statevector checks occur outside the search.
+Final smile plots are matrix re-evaluations at the selected coefficients.
+The raw measurement record separately shows what was observed. Held-out
+errors use the known synthetic target only for reporting.
+
+After selection, a fresh evaluation supplies the reported interval. Each
+maturity uses a Clopper--Pearson binomial interval with tail probabilities
+$0.05/(2S)$. Scaling and averaging these intervals gives a conservative
+95\% interval for the final finite-circuit objective by a union bound.
+For zero observed successes, the upper endpoint remains positive. Per-call
+Wald standard errors are also logged as descriptive approximations, but are
+not used to certify a zero loss. Calibration and independent-check shot/gate
+totals have separate fields. Transpiled $u$/CNOT circuits are exported
+in QPY format. Counts assume all-to-all connectivity without error correction.
+
+The resource sweep uses cutoff $4$ for $J\leq8$ and $32$ otherwise, varying
+$N,J$ and the number of maturity intervals. This is a gate-size diagnostic.
+The $J=8$ calibration uses cutoff $12$. Both cutoffs are recorded explicitly.
+An additional matrix-only quadrature sweep varies cutoff and term count
+together. Its accuracy figures are not hardware measurements.

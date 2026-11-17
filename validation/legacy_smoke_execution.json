@@ -1,0 +1,106 @@
+{
+  "notebook": "optional/full_legacy_experiment.ipynb",
+  "notebook_sha256": "8fff5627ed81d3873514dc18ee143283ce881b0f7c7d163913a260c0d09971fa",
+  "profile": "smoke",
+  "overrides": "PROFILE = \"smoke\", INSTALL_DEPENDENCIES = False and a separate OUTPUT_ROOT; all other cells unmodified",
+  "python": "3.13.18",
+  "packages": {
+    "jax": "0.11.1",
+    "qiskit": "2.5.2",
+    "QuantLib": "1.43",
+    "numpy": "2.5.5",
+    "scipy": "1.18.1",
+    "pandas": "3.1.1",
+    "matplotlib": "3.11.2"
+  },
+  "peak_memory_gb": 5.5,
+  "code_cells": 17,
+  "executed": [
+    {
+      "cell": 1,
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "cell": 2,
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "cell": 4,
+      "passed": true,
+      "seconds": 21.7
+    },
+    {
+      "cell": 6,
+      "passed": true,
+      "seconds": 1.5
+    },
+    {
+      "cell": 8,
+      "passed": true,
+      "seconds": 2.0
+    },
+    {
+      "cell": 10,
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "cell": 11,
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "cell": 13,
+      "passed": true,
+      "seconds": 2.5
+    },
+    {
+      "cell": 15,
+      "passed": true,
+      "seconds": 87.2
+    },
+    {
+      "cell": 17,
+      "passed": true,
+      "seconds": 6.4
+    },
+    {
+      "cell": 19,
+      "passed": true,
+      "seconds": 4.2
+    },
+    {
+      "cell": 21,
+      "passed": true,
+      "seconds": 138.1
+    },
+    {
+      "cell": 23,
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "cell": 25,
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "cell": 27,
+      "passed": true,
+      "seconds": 0.0
+    },
+    {
+      "cell": 29,
+      "passed": true,
+      "seconds": 10.1
+    },
+    {
+      "cell": 30,
+      "passed": true,
+      "seconds": 0.0
+    }
+  ],
+  "all_passed": true
+}

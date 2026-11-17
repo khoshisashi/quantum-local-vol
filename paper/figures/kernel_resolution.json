@@ -1,0 +1,6 @@
+{
+  "source": [
+    "error_budget.csv"
+  ],
+  "caption": "All beta-kernel cutoffs at N=128 and fixed-cutoff spatial-grid comparison. Designs differ across spatial grids, as in the input protocol."
+}

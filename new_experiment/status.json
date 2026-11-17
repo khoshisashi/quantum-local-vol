@@ -1,0 +1,7 @@
+{
+  "completed": true,
+  "profile": "paper",
+  "hardware_execution": false,
+  "measured_runs": 6,
+  "no_statevector_access_in_optimiser": true
+}

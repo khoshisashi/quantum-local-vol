@@ -1,0 +1,8 @@
+{
+  "sources": [
+    "selected_examples.json",
+    "raw/"
+  ],
+  "caption": "Seed 0, zero noise, second maturity; explicit dataset identifiers in selected_examples.json.",
+  "profile": "paper"
+}

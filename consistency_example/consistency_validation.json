@@ -1,0 +1,66 @@
+{
+  "checkpoint": "out_bp0_d101_n7_lchs-beta_s0",
+  "checkpoint_sha256": "44e5ec885b742990250088df18563d521c67f5a51a66c8ef3c08244a4ceb1276",
+  "scope": "First-expiry forward re-evaluation at the same retained LCHS-fitted coefficients; no recalibration or quantum hardware execution",
+  "selection": "Clean outside-model target, N=128, optimiser start 0. This stress case attains the archived maximum quoted-band butterfly deficit; it is not an average case.",
+  "N": 128,
+  "T": 0.4986301369863014,
+  "coefficients": [
+    0.12984966514748714,
+    0.9765267111759874,
+    0.4068130595663554,
+    0.0
+  ],
+  "J": [
+    2048,
+    4096
+  ],
+  "cutoff": 48.0,
+  "beta": 0.8,
+  "fd_steps": 1024,
+  "shift": 0.8980217690067067,
+  "exact_archive_max_difference": 9.270362255620057e-15,
+  "lchs_archive_max_difference": 2.9976021664879227e-15,
+  "max_imaginary_part": {
+    "exact": 0.0,
+    "fd": 0.0,
+    "lchs_2048": 1.945145542223389e-15,
+    "lchs_4096": 2.062845800881022e-15
+  },
+  "forward_seconds": {
+    "exact": 0.00186637799924938,
+    "fd": 0.000870998999744188,
+    "lchs_2048": 2.1286063450006623,
+    "lchs_4096": 4.546202019999328
+  },
+  "metrics": {
+    "exact": {
+      "max_inband_price_error_bp": 0.0,
+      "min_inband_butterfly_bp": 0.7907945401131045,
+      "inband_butterfly_failures": 0,
+      "global_butterfly_failures": 0,
+      "global_max_price_error_bp": 0.0
+    },
+    "fd": {
+      "max_inband_price_error_bp": 0.09686245065587684,
+      "min_inband_butterfly_bp": 0.7902105511808921,
+      "inband_butterfly_failures": 0,
+      "global_butterfly_failures": 0,
+      "global_max_price_error_bp": 0.09686245065587684
+    },
+    "lchs_2048": {
+      "max_inband_price_error_bp": 3.545719549888915,
+      "min_inband_butterfly_bp": -3.0595899185273043,
+      "inband_butterfly_failures": 5,
+      "global_butterfly_failures": 39,
+      "global_max_price_error_bp": 3.545719549888915
+    },
+    "lchs_4096": {
+      "max_inband_price_error_bp": 0.03632041475187808,
+      "min_inband_butterfly_bp": 0.79062968382837,
+      "inband_butterfly_failures": 0,
+      "global_butterfly_failures": 28,
+      "global_max_price_error_bp": 0.11965350657283658
+    }
+  }
+}

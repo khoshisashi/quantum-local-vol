@@ -1,0 +1,8 @@
+{
+  "sources": [
+    "fd_convergence.csv",
+    "identifiability.csv"
+  ],
+  "caption": "FD convergence separates time error from optimiser error. Jacobian spectra are local diagnostics.",
+  "profile": "paper"
+}

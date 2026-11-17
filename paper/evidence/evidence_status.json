@@ -1,0 +1,9 @@
+{
+  "profile": "paper",
+  "completed_runs": 567,
+  "failures": 1,
+  "market_status": "not_run",
+  "quantum_hardware_executed": false,
+  "full_coherent_qhd_executed": false,
+  "evidence_ready_for_author_review": false
+}

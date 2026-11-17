@@ -1,0 +1,7 @@
+{
+  "sources": [
+    "error_budget.csv"
+  ],
+  "caption": "Faint lines show every cutoff; envelope minimises reference error and is not a deployable tuning rule.",
+  "profile": "paper"
+}

@@ -1,0 +1,7 @@
+{
+  "sources": [
+    "ablation.csv"
+  ],
+  "caption": "Out-of-family, fixed 5 bp noise dataset and initialisation. Not a hyperparameter selection study.",
+  "profile": "paper"
+}

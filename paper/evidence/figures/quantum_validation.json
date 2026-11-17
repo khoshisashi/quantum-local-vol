@@ -1,0 +1,8 @@
+{
+  "sources": [
+    "quantum_objective.csv",
+    "quantum_resources.json"
+  ],
+  "caption": "Actual residual/objective circuit, one maturity and two design parameters; dense enumerated SELECT.",
+  "profile": "paper"
+}

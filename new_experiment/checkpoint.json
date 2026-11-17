@@ -1,0 +1,26 @@
+{
+  "completed": 6,
+  "planned": 6,
+  "last": {
+    "method": "quantum_counts",
+    "shots": 4194304,
+    "seed": 303,
+    "parameters": [
+      0.75,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "evaluations": 36,
+    "cpu_seconds": 436.6267652810002,
+    "quote_rmse_bp": 15.442965254869302,
+    "heldout_rmse_bp": 15.68031553870495,
+    "coefficient_rmse": 0.21650635094610965,
+    "total_shots": 301989888,
+    "total_cx_executions": 8319519424512,
+    "max_qubits": 10,
+    "independent_final_measured_loss": 4.626184585736889e-06,
+    "independent_final_mse_lower": 1.9112047445422593e-06,
+    "independent_final_mse_upper": 9.330766991687553e-06
+  }
+}

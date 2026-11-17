@@ -1,0 +1,7 @@
+{
+  "sources": [
+    "surface_model.py: residual circuit construction",
+    "quantum_experiments.py: count-driven optimisation",
+    "main.tex: propagation and residual equations"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "scope": "Classically tabulated landscape; split-step QHD simulation",
+  "strong_convexity_verified": false,
+  "global_continuous_optimum_verified": false,
+  "reference": "Exact enumeration of this finite design grid",
+  "schedule": "exp(-s) kinetic + exp(s) normalised potential"
+}

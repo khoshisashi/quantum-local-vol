@@ -1,0 +1,20 @@
+{
+  "n": 2,
+  "M": 2,
+  "m": 1,
+  "design_points": 4,
+  "lcu_terms": 4,
+  "qubits": 9,
+  "depth": 5666213,
+  "cx": 2799852,
+  "u": 4599893,
+  "residual_probability_error": 1.3467146234985572e-15,
+  "objective_block_error": 2.216330441633587e-12,
+  "classical_build_validation_s": 101.64220416799799,
+  "scale": 1.3382794611816218,
+  "alpha_lcu": 1.09622747757806,
+  "gamma_W": 1.032490102792525,
+  "cost_scope": "Explicit dense design-enumerated SELECT; not asymptotic efficient synthesis",
+  "gate_set": "u,cx, all-to-all connectivity, no fault-tolerant compilation",
+  "hardware_execution": false
+}

@@ -1,0 +1,2 @@
+steps,refined_steps,design_points,probability_total_variation,expected_loss_difference,scope
+1500,3000,256,8.457729958938013e-07,2.326495124817967e-12,Classical tabulation; coarse circuit points cross-checked; not full coherent QHD

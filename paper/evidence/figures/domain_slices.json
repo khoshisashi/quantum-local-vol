@@ -1,0 +1,7 @@
+{
+  "sources": [
+    "domain_slice_sensitivity.csv"
+  ],
+  "caption": "The true 182/365 breakpoint is retained. More expiries add data; fixed N domain changes also alter h.",
+  "profile": "paper"
+}

@@ -1,0 +1,29 @@
+{
+  "planned_runs": 568,
+  "completed_runs": 567,
+  "failed_runs": 1,
+  "source_hashes_match": {
+    "core.py": true,
+    "benchmarks.py": true,
+    "quantum_checks.py": true,
+    "extended_checks.py": true,
+    "reporting.py": true
+  },
+  "unique_run_keys": true,
+  "all_expected_runs_accounted": true,
+  "maximum_recomputed_metric_discrepancy": 4.476775478483476e-13,
+  "conditional_calibration_certificates": 480,
+  "lchs_conditional_calibration_certificates": 240,
+  "exact_re_evaluation_bf_max": 2.4850926077089776e-16,
+  "exact_re_evaluation_cal_max": 3.608224830031759e-16,
+  "forward_budget_certificates": 90,
+  "lchs_beta_raw_bf_fail": 120,
+  "lchs_beta_raw_cal_fail": 120,
+  "classical_beta_to_fd_opt_time_ratio": 192.47110579577338,
+  "classical_beta_to_expm_opt_time_ratio": 990.4980147963759,
+  "oracle_block_error": 2.216330441633587e-12,
+  "market_status": "not_run",
+  "scope": "Independent audit of supplied results; original optimisation was not rerun"
+}
+Generated Figures 1–4, numeric macros and audited tables.
+New calculation: fixed-coefficient forward comparison only.
